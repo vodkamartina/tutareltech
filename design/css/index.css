@@ -13,7 +13,26 @@
 *::after {
     box-sizing: border-box;
 }
+.menu{
+    margin-top: 150px;
+    margin-bottom: -170px;
+    margin-left: 100px;
 
+}
+.menu div{
+    display: flex;
+}
+.menu div a{
+    z-index: 1000;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: #222;
+}
+.menu div a:hover{
+    transition: .4s;
+    color: #222222a3;
+}
 body {
     background-image: url(/design/pics/background/cool-background\ \(1\).png);
     font-family: 'Montserrat';
@@ -1462,4 +1481,92 @@ textarea {
 }
 .menu-items li{
     position: relative;
+}
+.background_title_lang{
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 230px;
+    opacity: 0.7;
+}
+.background_title_lang:hover{
+    opacity: 0.5;
+    transition: .4s;
+}
+.background_title_lang img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 600px) {
+    .background_title h1{
+        font-size: 30px;
+    }
+    .background_title_buttons{
+        max-width: 50%;
+        margin-left: 150px;
+    }
+    .who_are_we_title h1{
+       margin: auto 30px;
+    }
+    .who_are_we_title_devami{
+        margin-top: 30px;
+    }
+    .comp_info_section {
+        display: none;
+    }
+    .services {
+        width: 100%;
+        margin-left: 0px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .who_are_we_2__title{
+        margin-top: 10px;
+    }
+    .who_are_we_2__title h1{
+        font-size: 30px;
+        margin-left: -80px;
+        width: 170%;
+    }
+    .who_are_we_2__desc{
+        margin-left: -80px;
+        width: 150%;
+        text-align: justify;
+    }
+    .admins {
+        margin-top: 200px;
+        width: 100%;
+        margin-left: 0px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .section_contact{
+        display: none;
+    }
+    .background_title_lang img{
+        margin-top: 0px;
+        margin-left: 40px;
+
+    }
+    .innovation_title,.market_title{
+        margin-top: -10px;
+    }
+    .innovation_desc,.market_desc{
+        font-size: 12px;
+        float: none;
+        margin-left: -40px;
+        margin-right: -40px;
+    }
+    .innovation_more{
+        margin-top: 10px;
+    }
+
+    .adadad{
+        width: 100%;
+        margin-bottom: -100px;
+    }
+    .menu div{
+        margin-bottom: 100px;
+    }
 }
